@@ -1,0 +1,11 @@
+{
+  "Street1": "street Name ",
+  "Street2":  "street data",
+  "City": "Giza" ,
+  "Country": "Egypt",
+  "Mobile": "01000000000",
+  "State/Province": "002",
+  "Zip/PostalCode" : "1234",
+  "Home": "023456789",
+  "Work": "0123456789"
+}

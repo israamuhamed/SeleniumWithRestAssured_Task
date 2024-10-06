@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "empNumber": {
+          "type": "integer"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "middleName": {
+          "type": "string"
+        },
+        "employeeId": {
+          "type": "string"
+        },
+        "terminationId": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "empNumber",
+        "lastName",
+        "firstName",
+        "middleName",
+        "employeeId",
+        "terminationId"
+      ]
+    },
+    "meta": {
+      "type": "array",
+      "items": {}
+    },
+    "rels": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "data",
+    "meta",
+    "rels"
+  ]
+}
